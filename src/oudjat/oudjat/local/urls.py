@@ -1,1 +1,0 @@
-/home/adilla/Bureau/django_oudjat/src/oudjat/oudjat/urls.py
