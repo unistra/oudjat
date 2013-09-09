@@ -15,7 +15,7 @@ with open('requirements.txt') as requirements:
 
 setup(
     name='oudjat',
-    version='0.5',
+    version='0.6',
     author='Adilla Susungi',
     author_email='adilla.susungi@etu.unistra.fr',
     maintainer='Arnaud Grausem',
@@ -24,8 +24,8 @@ setup(
     license='PSF',
     description='',
     long_description=long_description,
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
+    packages=find_packages('src/oudjat'),
+    package_dir={'': 'src/oudjat'},
     download_url='http://repodipory.u-strasbg.fr/lib/python/',
     install_requires=libraries,
     dependency_links=dependency_links,

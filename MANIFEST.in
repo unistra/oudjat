@@ -1,0 +1,3 @@
+include requirements.txt
+include fabfile.py
+include src/oudjat/manage.py
